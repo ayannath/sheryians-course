@@ -1,8 +1,14 @@
+// inbuilt features of javascript
 
-var t01_btn = document.querySelector("#t01_btn");
-var t01_p = document.querySelector("#t01_p");
+// different console methods.
+console.log("This is log message");
+console.info("This is info message");
+console.warn("This is warning message");
+console.error("This is error message");
 
-t01_btn.addEventListener("click", function() {
-    // alert("Button Clicked!");
-    t01_p.textContent = "Button was Clicked!";
-});
+// alert, prompt and confirm
+alert("This is an alert message");
+let userInput = prompt("Please enter your name: ");
+
+// let isConfirmed = confirm("Do you want to proceed?");
+console.log("User Input: " + userInput);
