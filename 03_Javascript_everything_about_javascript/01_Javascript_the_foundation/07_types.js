@@ -1,4 +1,4 @@
-// types in javascript
+// Level-3, types in javascript,
 
 // 1. primitive types
 let str = "hello"; // string

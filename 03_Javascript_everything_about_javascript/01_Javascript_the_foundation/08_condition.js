@@ -1,4 +1,4 @@
-// Conditional Statements in JavaScript: if, else if, else > 99%, ternary operator: 1% and switch
+// Level-3, Conditional Statements in JavaScript: if, else if, else > 99%, ternary operator: 1% and switch
 
 // truthy and falsy values are:
 // Falsy values: false, 0, -0, 0n, "", null, undefined, NaN, document.all

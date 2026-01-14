@@ -1,4 +1,4 @@
-// Loops: Used to repeat a block of code multiple times until a certain condition is met
+// Level-3, Loops: Used to repeat a block of code multiple times until a certain condition is met
 // for, while, do-while, foreach, for...in, for...of
 
 // 1. For Loop
@@ -8,6 +8,12 @@ for (let i = 0; i < 5; i++) { // for(start; end; change) {}
 }
 
 // 2. While Loop
+/*
+start;
+while(end) {
+    change code;
+}
+*/
 console.log("While Loop:");
 let j = 0;
 while (j < 5) {

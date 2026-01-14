@@ -7,8 +7,8 @@
 5. compilers and Interpreters
 6. windows
 7. types ~
-8. conditions 
-9. loops
+8. conditions ~
+9. loops ~
 10. functions
 11. array
 12. objects
