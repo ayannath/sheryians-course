@@ -9,9 +9,9 @@
 7. types ~
 8. conditions ~
 9. loops ~
-10. functions
-11. array
-12. objects
+10. functions ~
+11. array ~
+12. objects ~
 
 > advance
 13. prototypes

@@ -8,21 +8,64 @@ c) fat arrow with implicit return
 */
 
 
-// Function Declaration
+// *** Function Declaration
 function greet1(name) {
     return `Hello, ${name}! Welcome to JavaScript Functions.`;
 }
 console.log(greet1("Alice"));
 
-// Function Expression
+// *** Function Expression
 const greet2 = function(name) {
     return `Hi, ${name}! This is a function expression.`;
 };
 console.log(greet2("Bob"));
 
-// Arrow Function es6
+// *** parameter vs argument
+function abcd(val) {
+    console.log(12 + val); // val is argument
+}
+abcd(12); // val is parameter, 12 is argument
+
+function add(a, b) { // a and b are parameters
+    return a + b;
+}
+add(2, 3); // 2 and 3 are arguments
+
+// *** Arrow Function es6
 const greet3 = (name) => `Hey, ${name}! This is an arrow function.`;
 console.log(greet3("Charlie"));
+
+// ++++++++++ Prepraton for interviews: types of functions in javascript
+
+function abcd2(){
+    // function statement
+}
+
+var abcd3 = function(){
+    // function expression
+}
+
+// function(){
+//     // anonymous function
+// }
+
+// fat arrow functions
+// () => {};
+// bascic fat arrow function
+var a = () => {};
+// fat arrow single parameter
+var b = x => {console.log("Fat arrow: " + x);}; // with singele parameter, no need to use parenthesis (x)
+b(12);
+// fat arrow with implicit return
+var c = x => x * x;
+console.log(c(5)); // 25
+var d = () => "Harsh";
+var ans = d();
+console.log(ans); // Harsh
+
+
+
+// =================== Additional Function Types and Concepts ===================
 
 // Immediately Invoked Function Expression (IIFE)
 (function(name) {
@@ -41,6 +84,7 @@ function greet5(...names) {
     return names.map(name => `Hello, ${name}!`).join(" ");
 }
 console.log(greet5("Frank", "Grace", "Hank"));
+
 // Recursive Function
 function factorial(n) {
     if (n <= 1) return 1;
@@ -58,12 +102,6 @@ function fetchData(callback) {
 fetchData(data => {
     console.log("Received Data:", data);
 });
-
-// parameter vs argument
-function add(a, b) { // a and b are parameters
-    return a + b;
-}
-add(2, 3); // 2 and 3 are arguments
 
 // Hoisting example
 console.log(hoistedFunction()); // Works because of hoisting
